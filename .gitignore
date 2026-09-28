@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Conda / environments
+.env
+.venv/
+venv/
+env/
+
+# Large single-cell datasets
+*.h5ad
+*.h5
+*.loom
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Large serialized models
+*.joblib
+*.pkl
+
+# Temporary files
+*.tmp
+*.log

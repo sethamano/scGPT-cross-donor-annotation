@@ -1,0 +1,2 @@
+model,split,accuracy,balanced_accuracy,macro_f1,weighted_f1
+Fine-tuned scGPT,test,0.9104948412959191,0.7669197067385976,0.773822894734234,0.9083644271268911

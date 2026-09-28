@@ -1,0 +1,43 @@
+{
+  "dataset_id": "fa8605cf-f27e-44af-ac2a-476bee4410d3",
+  "random_seed": 42,
+  "n_cell_types": 8,
+  "cell_types": [
+    "monocyte",
+    "CD8-positive, alpha-beta T cell",
+    "CD4-positive, alpha-beta T cell",
+    "B cell",
+    "natural killer cell",
+    "alpha-beta T cell",
+    "dendritic cell",
+    "platelet"
+  ],
+  "n_train_cells": 32252,
+  "n_val_cells": 10866,
+  "n_test_cells": 15217,
+  "n_train_donors": 10,
+  "n_val_donors": 2,
+  "n_test_donors": 3,
+  "train_donors": [
+    "161",
+    "180",
+    "218",
+    "219",
+    "318",
+    "345",
+    "366",
+    "367",
+    "370",
+    "90"
+  ],
+  "val_donors": [
+    "144",
+    "184"
+  ],
+  "test_donors": [
+    "259",
+    "3",
+    "336"
+  ],
+  "n_hvg": 2000
+}

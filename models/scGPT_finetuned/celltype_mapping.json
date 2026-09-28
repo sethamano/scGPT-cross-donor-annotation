@@ -1,0 +1,22 @@
+{
+  "type2id": {
+    "monocyte": 0,
+    "CD8-positive, alpha-beta T cell": 1,
+    "CD4-positive, alpha-beta T cell": 2,
+    "B cell": 3,
+    "natural killer cell": 4,
+    "alpha-beta T cell": 5,
+    "dendritic cell": 6,
+    "platelet": 7
+  },
+  "id2type": {
+    "0": "monocyte",
+    "1": "CD8-positive, alpha-beta T cell",
+    "2": "CD4-positive, alpha-beta T cell",
+    "3": "B cell",
+    "4": "natural killer cell",
+    "5": "alpha-beta T cell",
+    "6": "dendritic cell",
+    "7": "platelet"
+  }
+}
