@@ -161,7 +161,7 @@ For partial fine-tuning:
 
 - pretrained scGPT weights were loaded
 - most of the pretrained network remained frozen
-- the final transformer layers were made trainable
+- the final transformer two layers were made trainable
 - the classification head was trained
 - class-weighted cross-entropy was used as the objective
 
@@ -375,6 +375,7 @@ For the fairest comparison, all three approaches should use:
 - **Fine-tuning provided an additional gain.** Macro F1 increased further to **0.774**.
 - **The best model depends on the metric.** Fine-tuned scGPT achieved the strongest accuracy, Macro F1, and weighted F1, while logistic regression retained the highest balanced accuracy.
 - **Performance gains were not uniform across cell types.** Fine-tuning especially improved dendritic-cell and platelet F1, while frozen scGPT performed slightly better on some classes such as CD8 T cells and natural killer cells.
+- **Room for improvement.** Increasing dataset size and fine-tuning more than two hidden layers would further increase the performance metrics, but, for the sake of training the model locally, many parameter and design decisions were made to allow for completion of the project on a MacBook Pro.
 
 ---
 
